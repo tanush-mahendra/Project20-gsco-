@@ -15,7 +15,7 @@ function draw() {
 console.log(random);
   car.velocityX=speed;
  
-  if(wall.x-35 -car.x <car.width/2 + wall.width/2){
+  if(wall.x-23 -car.x <car.width/2 + wall.width/2){
     car.velocityX=0;
     speed=0;
      deformation=weight* speed* speed *0.5/22500;
